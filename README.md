@@ -22,7 +22,7 @@ Repositório criado a fim de armazenar todos os artefatos construídos para o pr
 ## Como se conectar ao banco
 - Abra o TablePlus e inicie uma nova conexão do tipo ***PostgreSQL***.
 - Escolha um nome para a conexão.
-- Os nomes de usuário e senha serão os definidos no passo anterior ***Como criar o schema do banco de dados***.
+- Os nomes de usuário e senha serão os definidos no passo anterior [Como criar o schema do banco de dados](github.com/Renabouj/Tendencias-e-Desafios-em-SI-2021.2/blob/main/README.md#como-criar-o-schema-do-banco-de-dados).
 - No campo ***database*** coloque o nome do usuário.
 - Em *tabelas*, poder-se-á observar a tabela ***sales***, com todo o schema criado.
 - Conecte-se ao banco.
