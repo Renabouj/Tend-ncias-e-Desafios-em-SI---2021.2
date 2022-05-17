@@ -17,7 +17,6 @@ Repositório criado a fim de armazenar todos os artefatos construídos para o pr
   make postgres (executará uma imagem, via docker, do postgres:12-alpine)
   make createdb (criará um banco de dados chamado **tendencias**)
   make migrateup (Criará o schema do banco de dados
-  
   ```
  
 ## Como se conectar ao banco
@@ -41,15 +40,12 @@ Repositório criado a fim de armazenar todos os artefatos construídos para o pr
 - Ativar o ambiente virtual com:
   ```
     source {nome do ambiente virtual}/bin/activate
-    
   ```
 - Com o ambiente virtual ativado, instale todos os requisitos do projeto: 
   ```
   pip3 install -r requirements.txt
-  
   ```
 - Abra outra janela do terminal, dentro da pasta do projeto, e execute o comando 
   ```
   jupyter lab
-  
-  
+  ```
