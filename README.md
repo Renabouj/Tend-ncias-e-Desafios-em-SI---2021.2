@@ -2,12 +2,12 @@
 Repositório criado a fim de armazenar todos os artefatos construídos para o projeto da disciplina. Pyspark 3.2.1
 
 ## Requisitos para a execução do projeto:
-- Instale o Python 3.9
-- Instale o Apache-Spark (no MacOS, instale com "brew install apache-spark"
-- Instale o Java (no Mac, usar o comando "brew install --cask adoptopenjdk8")
-- Instale o Docker
-- Instale o [TablePlus](https://tableplus.com/) para visualização do Banco de Dados
-- Clonar este repositório e abrir a pasta correspondente
+- Instale o Python 3.9.
+- Instale o Apache-Spark (no MacOS, instale com "*brew install apache-spark*").
+- Instale o Java (no Mac, usar o comando "brew install --cask adoptopenjdk8").
+- Instale o Docker.
+- Instale o [TablePlus](https://tableplus.com/) para a visualização do Banco de Dados.
+- Clonar este repositório e abrir a pasta correspondente.
 - Baixe o [driver do JDBC](https://jdbc.postgresql.org/download/postgresql-42.3.5.jar) (necessário para a conexão com o banco de dados pelo Spark).
 
 ## Como criar o schema do banco de dados 
@@ -21,7 +21,7 @@ Repositório criado a fim de armazenar todos os artefatos construídos para o pr
  
 ## Como se conectar ao banco
 - Abra o TablePlus e inicie uma nova conexão do tipo ***PostgreSQL***.
-- Escolha um nome para a conexão
+- Escolha um nome para a conexão.
 - Os nomes de usuário e senha serão os definidos no passo anterior ***Como criar o schema do banco de dados***.
 - No campo ***database*** coloque o nome do usuário.
 - Em *tabelas*, poder-se-á observar a tabela ***sales***, com todo o schema criado.
@@ -48,7 +48,7 @@ Repositório criado a fim de armazenar todos os artefatos construídos para o pr
   ```
   pip3 install -r requirements.txt
   ```
-- Abra outra janela do terminal, dentro da pasta do projeto, e execute o comando 
+- Abra outra janela do terminal, dentro da pasta do projeto, e execute o comando: 
   ```
   jupyter lab
   ```
