@@ -29,7 +29,7 @@ Repositório criado a fim de armazenar todos os artefatos construídos para o pr
 - Aperte Control + K para abrir um banco de dados e escolha o banco ***tendencias***.
 
 ## Variáveis de Ambiente
-- Crie uma pasta chamada **Script** e, dentro dela, crei o arquivo ***.env***. Preencha as seguintes variáveis:
+- Crie uma pasta chamada **Environment** e, dentro dela, crei o arquivo ***.env***. Preencha as seguintes variáveis:
   -  DB_CONNECTION_STRING=jdbc:postgresql://localhost:5432/tendencias
   -  USER={**POSTGRES_USER**} #Este valor fora definido no Makefile, no campo postgres.
   -  PASSWORD={**POSTGRES_PASSWORD**} #Este valor fora definido no Makefile, no campo postgres.
