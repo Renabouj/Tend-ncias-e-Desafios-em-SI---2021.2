@@ -42,7 +42,7 @@ Repositório criado a fim de armazenar todos os artefatos construídos para o pr
   ```
 - Ative o ambiente virtual com:
   ```
-    source {nome do ambiente virtual}/bin/activate
+  source {nome do ambiente virtual}/bin/activate
   ```
 - Com o ambiente virtual ativado, instale todos os requisitos do projeto: 
   ```
