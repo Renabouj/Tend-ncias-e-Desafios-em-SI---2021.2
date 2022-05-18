@@ -9,6 +9,7 @@ Repositório criado a fim de armazenar todos os artefatos construídos para o pr
 - Instale o [TablePlus](https://tableplus.com/) para a visualização do Banco de Dados.
 - Clonar este repositório e abrir a pasta correspondente.
 - Baixe o [driver do JDBC](https://jdbc.postgresql.org/download/postgresql-42.3.5.jar) (necessário para a conexão com o banco de dados pelo Spark).
+- Instale o Golang-migrate de acordo com instrucoes elencadas [aqui](https://github.com/golang-migrate/migrate/tree/master/cmd/migrate)
 
 ## Como criar o schema do banco de dados 
 - Abra o arquivo [Makefile](Makefile) e escolha um nome de usuário e senha para as variáveis **POSTGRES_USER** e **POSTGRES_PASSWORD** no campo *postgres*; Fazer o mesmo com as variáveis **--username=** e **--owner=** no campo *createdb*. (*username* e *owner* devem ter o mesmo valor da variável **POSTGRES_USER**).
