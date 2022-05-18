@@ -53,5 +53,5 @@ Repositório criado a fim de armazenar todos os artefatos construídos para o pr
   ```
   jupyter lab
   ```
-- No jupyter, abra a pasta *Scripts* e abra o arquivo povoarBanco.ipynb. Execute todas as células para que o banco de dados seja povoado com todos os dados disponíveis.
-- Abra o arquivo Experimentos e abra o arquivo Experimentos.ipynb. Siga todos os passos narrados no notebook (atenção para a execução do experimento 3, posto que este durará mais de 1 hora).
+- No jupyter, abra a pasta *Scripts* e abra o arquivo **povoarBanco.ipynb**. Execute todas as células para que o banco de dados seja povoado com todos os dados disponíveis.
+- Na mesma pasta, abra o arquivo **Experimentos.ipynb** e execute-o. Siga todos os passos narrados no notebook (atenção para a execução do experimento 3, posto que este durará mais de 1 hora).
